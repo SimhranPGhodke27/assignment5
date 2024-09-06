@@ -1,0 +1,29 @@
+<!--<div *ngFor="let notification of notifications" class="notification">
+    <p>{{ notification.message }}</p>
+    
+    <hr>
+  </div>
+-->
+<div class="container">
+  <!-- Notifications Section -->
+  <div class="notifications-section">
+    <h2>Notifications</h2>
+    <div *ngFor="let notification of notifications" class="notification">
+      <p>{{ notification.message }}</p>
+      <p class="time">{{ notification.time }}</p>
+      <hr>
+    </div>
+  </div>
+
+  <!-- Recent Messages Section -->
+  <div class="messages-section">
+    <h2>Recent Messages</h2>
+    <div *ngFor="let message of messages" class="message">
+      <p><strong>{{ message.name }}</strong></p>
+      <p>{{ message.content }}</p>
+      <button class="reply-btn">Reply</button>
+      <hr>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,155 @@
+/*.post {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .post h4 {
+    margin: 0;
+    font-size: 1.1em;
+  }
+  
+  .post p {
+    margin: 5px 0;
+  }
+  .post {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+  }*/
+  /* Post container styling */
+.post-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  margin: 15px 0;
+  padding: 15px;
+  
+}
+
+/* Post header styling */
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Profile image styling */
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  border: 3px solid #b1aeae;
+}
+
+/* Post info styling */
+.post-info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Post category styling */
+.post-category {
+  color: #0099ff;
+}
+
+/* Post time styling */
+.post-time {
+  color: #888;
+  font-size: 0.9em;
+}
+
+/* Post content styling */
+.post-content {
+  margin-bottom: 15px;
+}
+
+/* Read more link styling */
+.read-more {
+  color: #0099ff;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+/* Comments section styling */
+.comments-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+/* Comment input styling */
+.comment-input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Comment button styling */
+.comment-btn {
+  background-color: #00bff3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.comment-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Horizontal rule styling */
+hr {
+  border: 1px solid #e0e0e0;
+  margin-top: 20px;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .post-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .post-info {
+    align-items: flex-start;
+  }
+
+  .post-content {
+    font-size: 0.9em;
+  }
+
+  .read-more {
+    font-size: 0.8em;
+  }
+
+  .comments-section {
+    flex-direction: column;
+  }
+
+  .comment-input {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .comment-btn {
+    width: 100%;
+  }
+}

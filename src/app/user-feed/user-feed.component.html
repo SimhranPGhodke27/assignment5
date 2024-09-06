@@ -1,0 +1,29 @@
+<!--<div *ngFor="let post of posts" class="post">
+
+    <p>{{ post.content }}</p>
+    <hr>
+</div>-->
+<div class="post" *ngFor="let post of posts">
+  <div class="post-container">
+    <div class="post-header">
+      <img src="{{ post.image }}" alt="Profile Picture" class="profile-img">
+      <div class="post-info">
+        <p><strong>{{ post.name }}</strong> posted in <span class="post-category">{{ post.category }}</span></p>
+        <span class="post-time">{{ post.time }}</span>
+      </div>
+    </div>
+    
+    <div class="post-content">
+      <p>{{ post.content }}</p>
+      <a href="#" class="read-more">Read more...</a>
+    </div>
+    
+    <div class="comments-section">
+      <input type="text" placeholder="Write your comment here..." class="comment-input">
+      <button class="comment-btn">Post</button>
+    </div>
+  </div>
+  <hr>
+</div>
+
+  
