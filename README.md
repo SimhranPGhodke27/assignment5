@@ -1,3 +1,35 @@
+# Chad's Fitness Application
+
+This README provides instructions for setting up and running the Chad's Fitness application using Angular. Follow these steps to configure and launch the application on your local machine.
+
+## Instructions
+
+1. **Create Project Directory**
+   - Create a folder named `chads-fitness` in your local directory.
+
+2. **Download Repository Files**
+   - Download all the files from this repository into the newly created `chads-fitness` folder.
+
+3. **Open Project in VSCode**
+   - Open the `chads-fitness` folder in Visual Studio Code (VSCode).
+
+4. **Open Terminal in VSCode**
+   - Open the terminal within VSCode. You can do this by selecting `Terminal` from the top menu and then `New Terminal`.
+
+5. **Start the Angular Application**
+   - In the terminal, type the following command to start the Angular development server:
+
+     ```bash
+     ng serve
+     ```
+
+   - This will launch the application on a local server.
+
+6. **View the Application**
+   - After running `ng serve`, click on the link provided in the terminal (usually `http://localhost:4200`) to view the application in your web browser.
+
+   - Reload the page as needed to see updates.
+
 # ChadsFitness
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
